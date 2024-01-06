@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2023 murillodev
  */
 
 
@@ -11,7 +11,7 @@
 
 
 /*-----------------------------------*\
-  #CUSTOM PROPERTY
+  #propriedades
 \*-----------------------------------*/
 
 :root {
@@ -33,7 +33,7 @@
   --white: hsl(0, 0%, 100%);
 
   /**
-   * typography
+   * tipografia
    */
 
   --ff-chakra-petch: 'Chakra Petch', sans-serif;
@@ -51,7 +51,7 @@
   --fw-700: 700;
 
   /**
-   * spacing
+   * espaçamento
    */
 
   --section-padding: 60px;
@@ -431,7 +431,7 @@ body {
 
 
 /*-----------------------------------*\
-  #SERVICE
+  #SERVIÇOS
 \*-----------------------------------*/
 
 .service-banner { display: none; }
@@ -461,7 +461,7 @@ body {
 
 
 /*-----------------------------------*\
-  #ABOUT
+  #SOBRE
 \*-----------------------------------*/
 
 .about {
@@ -506,7 +506,7 @@ body {
 
 
 /*-----------------------------------*\
-  #WORK
+  #TRABALHO
 \*-----------------------------------*/
 
 .work .container { padding-inline: 0; }
@@ -553,7 +553,7 @@ body {
 
 
 /*-----------------------------------*\
-  #FOOTER
+  #RODAPÉ
 \*-----------------------------------*/
 
 .footer { color: var(--cadet-blue-creyola); }
@@ -632,19 +632,19 @@ body {
 \*-----------------------------------*/
 
 /**
- * responsive for large than 575px screen
+ * responsive +575px screen
  */
 
 @media (min-width: 575px) {
 
   /**
-   * CUSTOM PROPERTY
+   * propriedades
    */
 
   :root {
 
     /**
-     * typography
+     * tipografia
      */
 
     --fs-2: 4rem;
@@ -687,7 +687,7 @@ body {
 
 
   /**
-   * SERVICE
+   * SERVIÇOS
    */
 
   .service .section-title { margin-block-end: 30px; }
@@ -702,7 +702,7 @@ body {
   
 
   /**
-   * ABOUT
+   * SOBRE
    */
 
   .about-list {
@@ -715,7 +715,7 @@ body {
 
 
   /**
-   * WORK
+   * TRABALHO
    */
 
   .scrollbar-item { min-width: calc(50% - 15px); }
@@ -723,7 +723,7 @@ body {
 
 
   /**
-   * FOOTER
+   * RODAPÉ
    */
 
   .footer-top {
@@ -747,7 +747,7 @@ body {
 
 
 /**
- * responsive for large than 768px screen
+ * responsive +768px screen
  */
 
 @media (min-width: 768px) {
@@ -759,7 +759,7 @@ body {
   :root {
 
     /**
-     * typography
+     * tipografia
      */
 
     --fs-1: 4rem;
